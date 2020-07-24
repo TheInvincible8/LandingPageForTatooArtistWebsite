@@ -1,0 +1,18 @@
+section{
+    margin: 14rem 0;
+}
+
+
+
+
+.welcome-pic{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    & img{
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+    }
+    
+}

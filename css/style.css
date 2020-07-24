@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  overflow-x: hidden; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.7;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased !important; }
+
+.title {
+  font-size: 3.2rem;
+  font-weight: 300;
+  color: #333; }
+
+.subtitle {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #777;
+  line-height: 3rem; }
+
+.mb {
+  margin-bottom: 120px; }
+  .mb-2 {
+    margin-bottom: 10px; }
+  .mb-3 {
+    margin-bottom: 30px; }
+  .mb-4 {
+    margin-bottom: 40px; }
+  .mb-5 {
+    margin-bottom: 50px; }
+  .mb-6 {
+    margin-bottom: 60px; }
+  .mb-7 {
+    margin-bottom: 70px; }
+  .mb-8 {
+    margin-bottom: 80px; }
+  .mb-9 {
+    margin-bottom: 90px; }
+  .mb-10 {
+    margin-bottom: 100px; }
+
+.mt {
+  margin-top: 120px; }
+  .mt-2 {
+    margin-top: 10px; }
+  .mt-3 {
+    margin-top: 30px; }
+  .mt-4 {
+    margin-top: 40px; }
+  .mt-5 {
+    margin-top: 50px; }
+  .mt-6 {
+    margin-top: 60px; }
+  .mt-7 {
+    margin-top: 70px; }
+  .mt-8 {
+    margin-top: 80px; }
+  .mt-9 {
+    margin-top: 90px; }
+  .mt-10 {
+    margin-top: 100px; }
+
+.ml {
+  margin-left: 120px; }
+  .ml-2 {
+    margin-left: 10px; }
+  .ml-3 {
+    margin-left: 30px; }
+  .ml-4 {
+    margin-left: 40px; }
+  .ml-5 {
+    margin-left: 50px; }
+  .ml-6 {
+    margin-left: 60px; }
+  .ml-7 {
+    margin-left: 70px; }
+  .ml-8 {
+    margin-left: 80px; }
+  .ml-9 {
+    margin-left: 90px; }
+  .ml-10 {
+    margin-left: 100px; }
+
+.mr {
+  margin-right: 120px; }
+  .mr-2 {
+    margin-right: 10px; }
+  .mr-3 {
+    margin-right: 30px; }
+  .mr-4 {
+    margin-right: 40px; }
+  .mr-5 {
+    margin-right: 50px; }
+  .mr-6 {
+    margin-right: 60px; }
+  .mr-7 {
+    margin-right: 70px; }
+  .mr-8 {
+    margin-right: 80px; }
+  .mr-9 {
+    margin-right: 90px; }
+  .mr-10 {
+    margin-right: 100px; }
+
+.m {
+  margin: 120px; }
+  .m-2 {
+    margin: 10px; }
+  .m-3 {
+    margin: 30px; }
+  .m-4 {
+    margin: 40px; }
+  .m-5 {
+    margin: 50px; }
+  .m-6 {
+    margin: 60px; }
+  .m-7 {
+    margin: 70px; }
+  .m-8 {
+    margin: 80px; }
+  .m-9 {
+    margin: 90px; }
+  .m-10 {
+    margin: 100px; }
+
+.text-center {
+  text-align: center; }
+
+.text-white {
+  color: #fff; }
+
+.display-block {
+  display: block !important; }
+
+.btn {
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 34px;
+  font-size: 1.8rem; }
+  .btn--primary {
+    background: #e900e9;
+    transition: background .3s ease-out; }
+    .btn--primary:hover {
+      background: #c10ec7; }
+  .btn--rounded {
+    border-radius: 250px; }
+
+.card {
+  width: 100%;
+  height: 300px;
+  border: 1px solid #ededed;
+  padding: 5rem 2rem;
+  color: #06eccd;
+  transition: all .2s ease-in; }
+  .card:hover {
+    background: #e900e9;
+    color: #fff; }
+  .card:hover .card__body--subtitle {
+    color: #fff; }
+  .card__icon {
+    text-align: center;
+    color: inherit; }
+    .card__icon i {
+      font-size: 5rem;
+      color: inherit; }
+  .card__body {
+    padding: 3rem 0;
+    text-align: center;
+    color: inherit; }
+    .card__body--title {
+      font-size: 2.4rem;
+      color: inherit; }
+    .card__body--subtitle {
+      font-size: 1.4rem;
+      color: #777; }
+
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("/img/woman-in-orange-shirt-with-tattoo-on-her-left-hand-4125670.webp");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative; }
+  .header__container {
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; }
+    .header__container--title {
+      color: #fff;
+      font-weight: 700;
+      font-size: 4.2rem;
+      letter-spacing: 1px;
+      line-height: 5rem; }
+    .header__container--subtitle {
+      color: #fff;
+      font-size: 1.8rem;
+      font-weight: 280;
+      padding: 1rem 0; }
+
+.nav {
+  height: 8rem;
+  width: 100%;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15rem;
+  align-items: center;
+  position: relative;
+  z-index: 999; }
+  .nav--trigger {
+    display: none; }
+    .nav--trigger i {
+      font-size: 2.8rem;
+      cursor: pointer; }
+  .nav__logo * {
+    color: #fff;
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2px; }
+  .nav__bar {
+    list-style: none; }
+    .nav__bar--list {
+      display: inline;
+      padding: 0 1.2rem; }
+    .nav__bar--link {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.6rem;
+      text-transform: uppercase;
+      font-weight: 300; }
+
+@media only screen and (max-width: 1024px) {
+  .nav {
+    height: 3.98rem;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 6rem;
+    align-items: center;
+    position: relative; }
+    .nav--trigger {
+      display: block; }
+    .nav__logo * {
+      color: #333; }
+    .nav__bar {
+      position: absolute;
+      background: white;
+      top: 3.98rem;
+      left: 0;
+      height: auto;
+      width: 100%;
+      display: none; }
+      .nav__bar--list {
+        display: block;
+        padding: 1.4rem 6rem; }
+      .nav__bar--link {
+        color: #333;
+        font-size: 1.6rem; } }
+
+section {
+  margin: 14rem 0; }
+
+.welcome-pic {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px; }
+  .welcome-pic img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px; }
