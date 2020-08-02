@@ -3,13 +3,27 @@
   "version": "1.0.0",
   "description": "this is a startup project by vipan",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "scss": "node-sass sass/main.scss css/style.css -w"
   },
   "author": "pankaj",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
     "node-sass": "^4.14.1",
-    "sass": "^1.26.5"
-  }
+    "nodemon": "^2.0.4",
+    "sass": "^1.26.10"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.27"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheInvincible8/LandingPageForTatooArtistWebsite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TheInvincible8/LandingPageForTatooArtistWebsite/issues"
+  },
+  "homepage": "https://github.com/TheInvincible8/LandingPageForTatooArtistWebsite#readme"
 }
