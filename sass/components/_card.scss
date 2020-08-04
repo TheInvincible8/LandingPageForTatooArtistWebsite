@@ -26,6 +26,8 @@
     &__body{
         padding: 3rem 0;
         text-align: center;
+        font-family: 'Poppins', sans-serif;
+        
         color: inherit;
 
         &--title{
@@ -35,7 +37,8 @@
         }
         &--subtitle{
             font-size: 1.4rem;
-            color: #777;
+           text-transform: initial;
+            color: #333;
         }
     }
 }

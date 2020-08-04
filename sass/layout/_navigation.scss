@@ -19,10 +19,12 @@
     &__logo{
         & *{
             color: #fff;
-            font-size: 2.4rem;
+            font-size: 4rem;
             font-weight: 700;
             text-transform: uppercase;
-            letter-spacing: 0.2px;
+            border: 2px solid $primary;
+            padding: 10px 10px;
+
         }
 
     }
@@ -33,14 +35,20 @@
         &--list{
             display: inline;
             padding: 0 1.2rem;
+            
         }
 
         &--link{
+            border: 2px solid transparent;
             color: #fff;
             text-decoration: none;
             font-size: 1.6rem;
             text-transform: uppercase;
             font-weight: 300;
+            &:hover{
+                border-bottom: 2px solid $primary;
+            }
+            
         }
 
 
