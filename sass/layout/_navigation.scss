@@ -22,8 +22,11 @@
             font-size: 4rem;
             font-weight: 700;
             text-transform: uppercase;
-            border: 2px solid $primary;
-            padding: 10px 10px;
+            border-top-style:groove;
+            border-right-style: dotted;
+            border-bottom-style: groove;
+            border-left-style: dotted;
+            padding: 5px 5px;
 
         }
 
@@ -76,6 +79,12 @@
         &__logo{
             & *{
                 color: #333;
+                border: none;
+                
+               
+                
+                
+
             }
     
         }

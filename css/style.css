@@ -231,8 +231,11 @@ body {
     font-size: 4rem;
     font-weight: 700;
     text-transform: uppercase;
-    border: 2px solid rgba(233, 7, 176, 0.747);
-    padding: 10px 10px; }
+    border-top-style: groove;
+    border-right-style: dotted;
+    border-bottom-style: groove;
+    border-left-style: dotted;
+    padding: 5px 5px; }
   .nav__bar {
     list-style: none; }
     .nav__bar--list {
@@ -260,7 +263,8 @@ body {
     .nav--trigger {
       display: block; }
     .nav__logo * {
-      color: #333; }
+      color: #333;
+      border: none; }
     .nav__bar {
       position: absolute;
       background: white;
